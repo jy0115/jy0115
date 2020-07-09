@@ -1,0 +1,103 @@
+<!DOCTYPE html><!--21961060_석지연-->
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/common.css">
+<link rel="stylesheet" type="text/css" href="./css/header.css">
+<link rel="stylesheet" type="text/css" href="./css/home.css">
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<link rel="stylesheet" type="text/css" href="./css/circle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-card white">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class=" w3-padding-large"><img src="./img/logo.png" style="wide:100%;"></a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="./html/about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+        <a href="./html/works.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKS</a>
+        <a href="./html/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      </div>
+    </div>
+  </div>
+  <!--<div class="back_black"></div>-->
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="white w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:60px; color:pink; font-family: 'Jua', sans-serif;">
+    <a href="./html/about.html" class="white w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+    <a href="./html/works.html" class="white w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
+    <a href="./html/contact.html" class="white w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+  <!-- Page content -->
+<div class="w3-content" style="max-width:1800px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+    <h2 class="w3-wide">Hi, WELCOME TO MY S.TWILLGHT!</h2>
+    <div class="w3-row w3-padding-25">
+      <div id="parent">
+      <a href="./html/about.html"><img src="./img/planet.png" id="image" style="width:100%;"></a>
+      <a href="./html/about.html"><div id="middle">&nbsp; ABOUT</div></a>
+      </div>
+      <div id="parent">
+      <a href="./html/works.html"><img src="./img/planet2.png" id="image" style="width:100%;"></a>
+      <a href="./html/works.html"><div id="middle">&nbsp; WORKS</div></a>
+      </div>
+      <div id="parent">
+      <a href="./html/contact.html"><img src="./img/planet3.png" id="image" style="width:100%;"></a>
+      <a href="./html/contact.html"><div id="middle">CONTACT</div></a>
+      </div>
+    </div>
+  </div>
+  <div id="rocket"><img src="img/rocket.png"></div>
+  <div id="cloud1"><img src="img/cloud.png"></div>
+  <div id="cloud2"><img src="img/cloud2.png"></div>
+  <div id="circle1"></div>
+  <div id="circle2"></div>
+  <div id="circle3"></div>
+  <div id="circle4"></div>
+  <div id="circle5"></div>
+  <div id="circle6"></div>
+  <div id="circle7"></div>
+  <div id="circle8"></div>
+  <div id="circle9"></div>
+  <div id="circle10"></div>
+  <div id="circle11"></div>
+  <div id="circle12"></div>
+  <div id="circle13"></div>
+  <div class="clear"></div>
+  <footer>
+    <a href="index_21961060.html"><img id="footer_logo" src="img/footer_logo.png"></a>
+    <ul id="address">
+      <li>Email : haw6762@naver.com/haw0115@gmail.com</li>
+      <li>TEL : 010-4652-6762</li>
+      <li>Copyright ⓒ 2020 Seok Ji Yeon All Rights Reserved</li>
+    </ul>
+    <ul id="footer_sns">
+      <li><img src="img/facebook.png"></li>
+      <li><img src="img/instagram.png"></li>
+    </ul>
+  </footer> <!--footer-->
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

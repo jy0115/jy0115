@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+section#head {
+  height: 280px;
+  width:100%;
+  margin: auto;
+  padding: 0;
+}
+section#head #planet {
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 60px;
+  float: left;
+}
+section#head #planet img {
+  width: 280px;
+  margin-left: 90px;
+}
+section#head #title p {
+  width: 60%;
+  height: 200px;
+  font-family: 'Fredoka One', cursive;
+  color: pink;
+  font-size: 3vmax;
+  padding-top: 100px;
+  margin-left: 100px;
+  float: left;
+}
+section#con {
+  width: 100%;
+  margin: 0 auto;
+}
+section#main {
+  width: 80%;
+  height: auto;
+  background-color: #ffffff;
+  float: right;
+  padding-left: 0px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+section#main h3 {
+  width: 93%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2vmax;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-bottom: solid 2px #cecece;
+  color: #a04f64;
+}
+section#main h2 {
+  width: 1400px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
+  color: gray;
+  margin-top: 20px;
+}
+section#main #pro {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+section#main #profile {
+  margin-left: 120px;
+  margin-top: 30px;
+  float: left;
+}
+section#main #profile img {
+  width: 300px;
+}
+section#main #in {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+}
+section#main #intro {
+  width: 90%;
+  height: auto;
+  padding-bottom:40px;
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  float: left;
+  border-bottom: solid 2px #cecece;
+}
+section#main #intro #intro_title h4 {
+  font-family: 'Jua', sans-serif;
+  float: left;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #242b3d;
+}
+section#main #intro p {
+  font-family: 'Nanum Gothic', sans-serif;
+  width: 90%;
+  height: auto;
+  float: left;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+section#main #info {
+  font-family: 'Fredoka One', cursive;
+  width: 350px;
+  height: 230px;
+  margin-left: 150px;
+  float: left;
+}
+section#main #info p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section#main #info1 {
+  font-family: 'Fredoka One', cursive;
+  width: 350px;
+  height: 230px;
+  margin-left: 50px;
+  float: left;
+}
+section#main #info1 p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section#main #info2 {
+  font-family: 'Fredoka One', cursive;
+  width: 450px;
+  height: 230px;
+  margin-left: 50px;
+  float: left;
+}
+section#main #info2 p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section#main #skills {
+  font-family: 'Fredoka One', cursive;
+  margin-left: 45px;
+  margin-bottom: 45px;
+  float: left;
+}
+section#main #skills p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section#main #skills img {
+  max-width: 100%;
+  min-width: 400px;
+}
+section#main table, th, tr, td {
+  text-align: left;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-collapse: collapse;
+  padding-right:18px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin-top: 0;
+  /*border: solid 1px red;*/
+}

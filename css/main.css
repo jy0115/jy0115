@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.w3-content {
+  max-width:1800px;
+}
+.w3-wide{
+  letter-spacing:3px;
+  font-family: 'Fredoka One', cursive;
+  color: pink;
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before {
+  display:table;
+  clear:both
+}
+.w3-padding-25 {
+  padding-top:10px!important;
+  padding-bottom:10px!important
+}
+.w3-container,.w3-panel {
+  padding:0;
+}
+  #parent {
+    position: relative;
+    width: 31%;
+    margin:0;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+  }
+  #parent:hover #image {
+    transition: .4s ease;
+    transform: scaleX(-1);
+    opacity: 0.2;
+  }
+  #parent img#image {
+    transition: .5s ease;
+  }
+  #middle {
+    float: left;
+    margin: 0 auto;
+    transition: .0s ease;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    opacity: 0;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    font-family:'Fredoka One', cursive;
+  }
+  #parent:hover #middle {
+    transition: .4s ease;
+    opacity: 1;
+  }

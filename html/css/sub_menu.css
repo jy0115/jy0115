@@ -1,0 +1,40 @@
+aside {
+  width: 20%;
+  float: left;
+  margin: auto;
+}
+
+aside #sub_menu {
+  position: fixed;
+  text-align: center;
+  float: left;
+  height: 390px;
+  width: 20%;
+  margin: 0;
+  top:380px;
+  left: 0;
+}
+aside #sub_menu ul {
+  padding: 0 0 0 60px;
+}
+aside #sub_menu li {;
+  margin-left: 30px;
+  float: left;
+}
+aside #sub_menu a:link {
+  text-decoration: none;
+  color:#ffffff;
+}
+aside #sub_menu a:hover {
+  text-decoration: none;
+  color:#ff858f;
+  font-weight: bold;
+}
+aside #sub_menu a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+aside #sub_menu a:active {
+  text-decoration: none;
+  color:#ffffff;
+}

@@ -1,0 +1,60 @@
+section#main div.polaroid {
+  width: 495px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+  margin-left: 180px;
+  margin-top: 20px;
+  border-radius: 20px;
+  float: left;
+}
+section#main div.polaroid img {
+  margin-bottom: 25px;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 5px;
+}
+section#main div.container {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+section#main div.container .text {
+  width: 320px;
+  float: left;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-right: 10px;
+}
+section#main div.container p {
+  width: 330px;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+}
+section#main div.container img {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.frame {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+section#main h4 {
+  margin-left:120px;
+  font-family: 'jua', sans-serif;
+  margin-top: 40px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+table {
+  margin-left: 70px;
+  margin-bottom: 60px;
+}
+table img {
+  width: 300px;
+}

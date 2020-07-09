@@ -1,0 +1,175 @@
+#circle1 {
+  position: absolute;
+  left: 1800px;
+  top: 800px;
+  background-color: pink;
+  width:20px;
+  height:20px;
+  border-radius: 50px;
+}
+#circle2 {
+  position: absolute;
+  left: 1600px;
+  top: 620px;
+  background-color: pink;
+  width:12px;
+  height:12px;
+  border-radius: 50px;
+}
+#circle3 {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  background-color: pink;
+  width:12px;
+  height:12px;
+  border-radius: 50px;
+}
+#circle4 {
+  position: absolute;
+  left: 200px;
+  top: 659px;
+  background-color: pink;
+  width:12px;
+  height:12px;
+  border-radius: 50px;
+}
+#circle5 {
+  position: absolute;
+  left: 490px;
+  top: 830px;
+  background-color: pink;
+  width:20px;
+  height:20px;
+  border-radius: 50px;
+}
+#circle6 {
+  position: absolute;
+  left: 71px;
+  top: 300px;
+  background-color: pink;
+  width:20px;
+  height:20px;
+  border-radius: 50px;
+}
+#circle7 {
+  position: absolute;
+  left: 1700px;
+  top: 305px;
+  background-color: pink;
+  width:20px;
+  height:20px;
+  border-radius: 50px;
+}
+#circle8 {
+  position: absolute;
+  left: 1300px;
+  top: 140px;
+  background-color: pink;
+  width:15px;
+  height:15px;
+  border-radius: 50px;
+}
+#circle9 {
+  position: absolute;
+  left: 250px;
+  top: 140px;
+  background-color: pink;
+  width:15px;
+  height:15px;
+  border-radius: 50px;
+}
+#circle10 {
+  position: absolute;
+  left: 1450px;
+  top: 120px;
+  background-color: pink;
+  width:10px;
+  height:10px;
+  border-radius: 50px;
+}
+#circle11 {
+  position: absolute;
+  left: 1450px;
+  top: 800px;
+  background-color: pink;
+  width:10px;
+  height:10px;
+  border-radius: 50px;
+}
+#circle12 {
+  position: absolute;
+  left: 1800px;
+  top: 270px;
+  background-color: pink;
+  width:10px;
+  height:10px;
+  border-radius: 50px;
+}
+#circle13 {
+  position: absolute;
+  left: 1490px;
+  top: 230px;
+  background-color: pink;
+  width:12px;
+  height:12px;
+  border-radius: 50px;
+}
+div #circle2,#circle8,#circle4,#circle12 {
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {background-color: #ffffff;}
+  45% {background-color: yellow;}
+  65% {opacity: 0;}
+  100% {background-color: pink;}
+}
+div #circle5,#circle6,#circle11,#circle13 {
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example1 {
+  0% {background-color: #ffffff;}
+  40% {background-color: pink;}
+  80% {opacity: 0;}
+  100% {background-color:#ffffff;}
+}
+div #circle1,#circle3,#circle10 {
+  animation-name: example2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example2 {
+  0% {background-color: pink;}
+  45% {opacity: 0;}
+  65% {background-color: #yellow;}
+  100% {background-color: pink;}
+}
+div #circle7,#circle9 {
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example3 {
+  0% {background-color: #ffffff;}
+  40% {opacity: 0;}
+  100% {background-color: yellow;}
+}
+div #rocket {
+  position: absolute;
+  left: 1500px;
+  top: 140px;
+}
+div #cloud1 {
+  position: absolute;
+  left: 1500px;
+  top: 200px;
+}
+div #cloud2 {
+  position: absolute;
+  left: 20px;
+  top: 400px;
+}
